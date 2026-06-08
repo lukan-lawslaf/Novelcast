@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --font-ui: Inter, ui-sans-serif, system-ui, sans-serif;
+  --font-lora: Lora, Georgia, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0d0f1a;
+  color: #f0ede6;
+}
+
+button,
+select,
+input {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(124, 111, 224, 0.45);
+}
+
+.thin-scrollbar {
+  scrollbar-color: rgba(240, 237, 230, 0.24) transparent;
+}
